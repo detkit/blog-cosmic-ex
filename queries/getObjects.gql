@@ -1,0 +1,15 @@
+{
+  getObjects(
+    bucket_slug: "d06aaa60-11bb-11eb-be28-2b5f09b653d0"
+    input: {
+      limit: 20
+      read_key: "YIkzLaScYDuL1gnk707RTD2Q0kV86nqJPOHXydFdzaEg3pbFoc"
+      type: "posts"
+    }
+  ) {
+    objects {
+      slug
+      title
+    }
+  }
+}
